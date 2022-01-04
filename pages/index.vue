@@ -1,6 +1,72 @@
 <template>
-  <div class="container">
-    <h1>Hello World</h1>
+  <div class="index">
+    <div class="my-name">
+      <div class="my-name__img">
+        <img src="/images/kity_icon.png">
+      </div>
+      <div class="my-name__text">
+        <h3>Kitazawa Ryowa</h3>
+        <h2>北沢 亮和</h2>
+      </div>
+    </div>
+    <div class="business-side">
+      <div class="index-title">
+        <h2>ビジネスサイド</h2>
+      </div>
+        <router-link to="/Planner">
+          <div class="index__planner-link large-box">
+            <div class="large-box__img-wrap">
+            <img src="/images/neko_musu.png" alt="ムスッとしたねこ">
+            </div>
+            <div class="large-box__text-wrap">
+            <p>プランナーの姿</p>
+            </div>
+          </div>
+        </router-link>
+        <router-link to="/Marketer">
+          <div class="index__planner-link large-box">
+            <div class="large-box__img-wrap">
+            <img src="/images/neko_nomal.png" alt="普通の表情のねこ">
+            </div>
+            <div class="large-box__text-wrap">
+            <p>マーケターの姿</p>
+            </div>
+          </div>
+        </router-link>
+      </div>
+    <div class="creator-side">
+      <div class="index-title">
+        <h2>クリエイターサイド</h2>
+      </div>
+      <router-link to="/Designer">
+        <div class="index__planner-link large-box">
+          <div class="large-box__img-wrap">
+          <img src="/images/neko_aa.png" alt="ああって感じのねこ">
+          </div>
+          <div class="large-box__text-wrap">
+          <p>デザイナーの姿</p>
+          </div>
+        </div>
+      </router-link>
+      <router-link to="/Developer">
+        <div class="index__planner-link large-box">
+          <div class="large-box__img-wrap">
+          <img src="/images/neko_naki.png" alt="泣き顔のねこ">
+          </div>
+          <div class="large-box__text-wrap">
+          <p>ディベロッパーの姿</p>
+          </div>
+        </div>
+      </router-link>
+    </div>
+    <div class="sub-corner">
+      <div class="sub-corner__other medium-box">
+        <p>その他</p>
+      </div>
+      <div class="sub-corner__column medium-box">
+        <p>コラム</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -9,6 +75,3 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
