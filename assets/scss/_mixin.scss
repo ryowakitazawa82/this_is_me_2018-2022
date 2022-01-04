@@ -2,59 +2,81 @@
 /*            commmon            */
 /*********************************/
 @mixin middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*********************************************/
 /*             color                         */
 /*********************************************/
 $bg-black: #000000;
-$black: #1A1A1A;
-$gold: #A99F5F;
+$black: #1a1a1a;
+$gold: #a99f5f;
 $bg-white: rgba(255, 255, 255, 0.85);
 $white: #fff;
+$border-gray: #919191;
 
 /*********************************************/
 /*             font-family                   */
 /*********************************************/
 $ff_main: YuMincho, /* Mac用 */ "Yu Mincho", /* Windows用 */ serif;
 $ff_accent: "Kaisei Decol", serif;
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
-$ff-game: 'DotGothic16', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+$ff-game: "DotGothic16", sans-serif;
 
 /*********************************************/
 /*                 font                   */
 /*********************************************/
 @mixin t-game-title($color: $black, $font-family: $ff-game) {
+  color: $color;
+  font-family: $font-family;
+  font-size: 1.8rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.2em;
+}
+
+@mixin t-14($color: $black, $font-family: $ff-main) {
+  color: $color;
+  font-family: $font-family;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+@mixin t-18($color: $black, $font-family: $ff-main) {
     color: $color;
     font-family: $font-family;
     font-size: 1.8rem;
-    line-height: 1.7rem;
-    letter-spacing: .2em;
-}
-@mixin t-14($color: $black, $font-family: $ff-jp) {
-    color: $color;
-    font-family: $font-family;
-    font-size: 1.4rem;
-    line-height: 2.6rem;
-    letter-spacing: 0.1em;
-}
+    line-height: 2rem;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+  }
 
-@mixin t-20($color: $black, $font-family: $ff-jp) {
-    color: $color;
-    font-family: $font-family;
-    font-size: 2rem;
-    line-height: 1.7rem;
-    letter-spacing: 0.1em;
+@mixin t-20($color: $black, $font-family: $ff-main) {
+  color: $color;
+  font-family: $font-family;
+  font-size: 2rem;
+//   line-height: 1.7rem;
+  letter-spacing: 0.1em;
 }
 
 /*********************************************/
 /*                 wrap                   */
 /*********************************************/
 @mixin wrap-sp {
-    width: 31.5rem;
-    margin: 0 auto;
-  }
+  width: 31.5rem;
+  margin: 0 auto;
+}
+
+@mixin wrap-w-sp {
+  width: 35.3rem;
+  margin: 0 auto;
+}
+
+@mixin wrap-w-inner-sp {
+  width: 28.1rem;
+  margin: 0 auto;
+}
