@@ -53,5 +53,54 @@ html {
   }
 }
 
-.planner {
+.profile {
+  .profile__my-name {
+    padding-top: 3.3rem;
+  }
+  .profile__top_img {
+    margin-top: 4.1rem;
+    margin-bottom: 4.2rem;
+  }
+  .profile__inner {
+    @include wrap-w-inner-sp;
+  }
+  .profile-content__wrap {
+    padding: 3rem 0;
+  }
+  .profile__title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .profile-title__img-wrap {
+    img {
+      width: 3.6rem;
+      height: 2.9rem;
+    }
+  }
+  .profile-title__text-wrap {
+    p {
+      @include t-20($black, $ff_accent);
+      padding-left: 1.4rem;
+    }
+  }
+  .profile__main-text {
+    margin-top: 1.8rem;
+    .en {
+      @include t-12($gold);
+      padding-bottom: .4rem;
+    }
+    .jp {
+      @include t-14;
+      line-height: 2.4rem;
+      border-bottom: .5px solid $border-gray;
+      padding-bottom: .4rem;
+      span {
+        font-size: 1.2rem;
+      }
+      &.plus-p-top {
+        margin-top: 1.2rem;
+      }
+    }
+  }
 }

@@ -1,14 +1,16 @@
 <template>
   <div class="index">
-    <div class="my-name">
-      <div class="my-name__img">
-        <img src="/images/kity_icon.png">
+    <NuxtLink to="/Profile">
+      <div class="my-name">
+        <div class="my-name__img">
+          <img src="/images/kity_icon.png">
+        </div>
+        <div class="my-name__text">
+          <h3>Kitazawa Ryowa</h3>
+          <h2>北沢 亮和</h2>
+        </div>
       </div>
-      <div class="my-name__text">
-        <h3>Kitazawa Ryowa</h3>
-        <h2>北沢 亮和</h2>
-      </div>
-    </div>
+    </NuxtLink>
     <div class="business-side">
       <div class="index-title">
         <h2>ビジネスサイド</h2>

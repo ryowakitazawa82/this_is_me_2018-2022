@@ -76,6 +76,24 @@
                 </div>
             </div>
 
+            <div class="common-w-h2 plus-p-top">
+                <h2>事業立ち上げの際のマーケ</h2>
+            </div>
+            <div class="common-w-h2__des">
+                <p>資料にあるSTP分析/ ペルソナ分析の他、 3C分析/ クロスSWOT分析/ VRIO分析 など、様々なフレームワークを用いて多角的に分析を行いました。</p>
+            </div>
+
+            <div class="common-w-content__wrap">
+                <div class="common-w-h3">
+                    <h3>資料一部抜粋</h3>
+                </div>
+                <div class="common-w-h3__img plus-p-top">
+                    <img src="/images/timimk_01.png" alt="timiマーケ資料">
+                </div>
+                <div class="common-w-h3__img">
+                    <img src="/images/timimk_02.png" alt="timiマーケmiro">
+                </div>
+            </div>
         </div>
     </div>
   </div>
