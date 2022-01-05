@@ -104,11 +104,42 @@ body {
       @include wrap-w-inner-sp;
       @include t-18($black, $ff_accent);
     }
+    &.plus-p-top {
+      padding-top: calc(8rem - 3.1rem);
+    }
   }
   .common-w-h2__des {
+    padding-bottom: 4rem;
     @include wrap-w-inner-sp;
     p {
       @include t-14;
+    }
+  }
+  .common-w-content__wrap {
+    padding-bottom: 3.1rem;
+  }
+  .common-w-h3 {
+    padding: .9rem 2.1rem;
+    display: inline-block;
+    background-color: $white;
+    border-radius: 6px;
+    box-shadow: 2px 2px 0px 1.4px #5D5D5D;
+    h3 {
+      @include t-14($black, $ff_accent);
+    }
+  }
+  .common-w-h3__img {
+    margin-top: 1.4rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .common-w-h3__sub-text {
+    padding-top: 1.5rem;
+    text-align: right;
+    p {
+      @include t-12;
     }
   }
 }

@@ -13,7 +13,7 @@
       <div class="index-title">
         <h2>ビジネスサイド</h2>
       </div>
-        <router-link to="/Planner">
+        <NuxtLink to="/Planner">
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
             <img src="/images/neko_musu.png" alt="ムスッとしたねこ">
@@ -22,23 +22,23 @@
             <p>プランナーの姿</p>
             </div>
           </div>
-        </router-link>
-        <router-link to="/Marketer">
+        </NuxtLink>
+        <NuxtLink to="/Marketer">
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
-            <img src="/images/neko_nomal.png" alt="普通の表情のねこ">
+             <img src="/images/neko_nomal.png" alt="普通の表情のねこ">
             </div>
             <div class="large-box__text-wrap">
             <p>マーケターの姿</p>
             </div>
           </div>
-        </router-link>
+        </NuxtLink>
       </div>
     <div class="creator-side">
       <div class="index-title">
         <h2>クリエイターサイド</h2>
       </div>
-      <router-link to="/Designer">
+      <NuxtLink to="/Designer">
         <div class="index__planner-link large-box">
           <div class="large-box__img-wrap">
           <img src="/images/neko_aa.png" alt="ああって感じのねこ">
@@ -47,8 +47,8 @@
           <p>デザイナーの姿</p>
           </div>
         </div>
-      </router-link>
-      <router-link to="/Developer">
+      </NuxtLink>
+      <NuxtLink to="/Developer">
         <div class="index__planner-link large-box">
           <div class="large-box__img-wrap">
           <img src="/images/neko_naki.png" alt="泣き顔のねこ">
@@ -57,7 +57,7 @@
           <p>ディベロッパーの姿</p>
           </div>
         </div>
-      </router-link>
+      </NuxtLink>
     </div>
     <div class="sub-corner">
       <div class="sub-corner__other medium-box">
