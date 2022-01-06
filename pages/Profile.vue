@@ -72,7 +72,9 @@
             </div>
             <div class="profile__main-text">
               <p class="en">Skill</p>
-              <p class="jp">あとで追加</p>
+              <p class="jp">
+                <img src="/images/skillset.png">
+              </p>
             </div>
             <div class="profile__main-text">
               <p class="en">Qualification</p>

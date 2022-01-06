@@ -87,7 +87,7 @@
                 <div class="common-w-h3">
                     <h3>資料一部抜粋</h3>
                 </div>
-                <div class="common-w-h3__img plus-p-top">
+                <div class="common-w-h3__img">
                     <img src="/images/timimk_01.png" alt="timiマーケ資料">
                 </div>
                 <div class="common-w-h3__img">

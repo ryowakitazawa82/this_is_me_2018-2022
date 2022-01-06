@@ -1,5 +1,5 @@
 <template>
-  <div class="developer">
+  <div class="dev">
     <div class="common-white-box">
         <div class="common-white-box__inner">
             <div class="common-w-title">
@@ -10,45 +10,96 @@
                 <p>ディベロッパーの姿</p>
                 </div>
             </div>
-            <div class="common-w-title__des">
+            <div class="common-w-title__des dev-title__des">
                 <p>日は浅いですが、日々勉強中。。。</p>
             </div>
 
             <div class="common-w-h2">
-                <h2>仮タイトルだよ</h2>
+                <h2>スキルセット</h2>
             </div>
-            <div class="common-w-h2__des">
-                <p>ここにテキストいれるよ！</p>
-            </div>
-
-            <div class="common-w-content__wrap">
-                <div class="common-w-h3">
-                    <h3>仮置き</h3>
-                </div>
+            <div class="common-w-content__wrap dev-content__wrap">
                 <div class="common-w-h3__img">
-                    <img src="/images/sogo_01.png" alt="白熱している議論の様子">
+                    <img src="/images/skillset_dev.png" alt="スキルセット">
                 </div>
             </div>
 
 
             <div class="common-w-h2 plus-p-top">
-                <h2>仮タイトルだよ</h2>
+                <h2>WEBサイト制作</h2>
             </div>
             <div class="common-w-h2__des">
-                <p>テキストをいれるよ！</p>
+                <p>HTML/SCSS/JavaScript</p>
             </div>
 
             <div class="common-w-content__wrap">
                 <div class="common-w-h3">
-                    <h3>仮タイトルだよ</h3>
+                    <h3>採用LP</h3>
                 </div>
                 <div class="common-w-h3__img">
-                    <img src="/images/timimk_01.png" alt="timiマーケ資料">
-                </div>
-                <div class="common-w-h3__img">
-                    <img src="/images/timimk_02.png" alt="timiマーケmiro">
+                    <img src="/images/wd_01.png" alt="timiマーケ資料">
                 </div>
             </div>
+
+            <div class="common-w-content__wrap">
+                <div class="common-w-h3">
+                    <h3>コーポレートサイト01</h3>
+                </div>
+                <div class="common-w-h3__img">
+                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                </div>
+            </div>
+
+            <div class="common-w-content__wrap">
+                <div class="common-w-h3">
+                    <h3>コーポレートサイト02</h3>
+                </div>
+                <div class="common-w-h3__img">
+                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                </div>
+            </div>
+
+            <div class="common-w-h2 plus-p-top">
+                <h2>webアプリ制作</h2>
+            </div>
+            <div class="common-w-h2__des">
+                <p>React/Vue/Nuxt</p>
+            </div>
+
+            <div class="common-w-content__wrap">
+                <div class="common-w-h3">
+                    <h3>Trello(React)</h3>
+                </div>
+                <div class="common-w-h3__img">
+                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                </div>
+            </div>
+
+            <div class="common-w-content__wrap">
+                <div class="common-w-h3">
+                    <h3>Trello(Vue)</h3>
+                </div>
+                <div class="common-w-h3__img">
+                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                </div>
+            </div>
+
+            <div class="common-w-h2 plus-p-top">
+                <h2>ゲーム制作</h2>
+            </div>
+            <div class="common-w-h2__des">
+                <p>Unity/C#</p>
+            </div>
+
+            <div class="common-w-content__wrap">
+                <div class="common-w-h3">
+                    <h3>ブロック崩しゲーム</h3>
+                </div>
+                <div class="common-w-h3__img">
+                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                </div>
+            </div>
+
+
         </div>
     </div>
   </div>

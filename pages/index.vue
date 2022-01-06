@@ -62,11 +62,15 @@
       </NuxtLink>
     </div>
     <div class="sub-corner">
-      <div class="sub-corner__other medium-box">
-        <p>その他</p>
-      </div>
+        <div class="sub-corner__other medium-box">
+          <NuxtLink to="/Other">
+              <p>その他</p>
+          </NuxtLink>
+        </div>
       <div class="sub-corner__column medium-box">
-        <p>コラム</p>
+        <NuxtLink to="/Column">
+          <p>コラム</p>
+        </NuxtLink>
       </div>
     </div>
   </div>
