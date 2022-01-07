@@ -36,7 +36,7 @@
                     <h3>採用LP</h3>
                 </div>
                 <div class="common-w-h3__img">
-                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                    <img src="/images/dev_w_01.png" alt="web制作">
                 </div>
             </div>
 
@@ -45,7 +45,7 @@
                     <h3>コーポレートサイト01</h3>
                 </div>
                 <div class="common-w-h3__img">
-                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                    <img src="/images/dev_w_02.png" alt="web制作">
                 </div>
             </div>
 
@@ -54,12 +54,12 @@
                     <h3>コーポレートサイト02</h3>
                 </div>
                 <div class="common-w-h3__img">
-                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                    <img src="/images/dev_w_03.png" alt="web制作">
                 </div>
             </div>
 
             <div class="common-w-h2 plus-p-top">
-                <h2>webアプリ制作</h2>
+                <h2>webアプリ開発</h2>
             </div>
             <div class="common-w-h2__des">
                 <p>React/Vue/Nuxt</p>
@@ -67,24 +67,24 @@
 
             <div class="common-w-content__wrap">
                 <div class="common-w-h3">
-                    <h3>Trello(React)</h3>
+                    <h3>Trello(Vue)</h3>
                 </div>
                 <div class="common-w-h3__img">
-                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                    <img src="/images/dev_a_01.png" alt="webアプリ開発">
                 </div>
             </div>
 
             <div class="common-w-content__wrap">
                 <div class="common-w-h3">
-                    <h3>Trello(Vue)</h3>
+                    <h3>Trello(React)</h3>
                 </div>
                 <div class="common-w-h3__img">
-                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                    <img src="/images/dev_a_02.png" alt="webアプリ開発">
                 </div>
             </div>
 
             <div class="common-w-h2 plus-p-top">
-                <h2>ゲーム制作</h2>
+                <h2>ゲーム開発</h2>
             </div>
             <div class="common-w-h2__des">
                 <p>Unity/C#</p>
@@ -95,10 +95,9 @@
                     <h3>ブロック崩しゲーム</h3>
                 </div>
                 <div class="common-w-h3__img">
-                    <img src="/images/wd_01.png" alt="timiマーケ資料">
+                    <img src="/images/dev_g_01.png" alt="timiマーケ資料">
                 </div>
             </div>
-
 
         </div>
     </div>
