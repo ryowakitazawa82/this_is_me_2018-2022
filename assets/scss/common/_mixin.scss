@@ -81,6 +81,11 @@ $ff-game: "DotGothic16", sans-serif;
   margin: 0 auto;
 }
 
+@mixin wrap-pc {
+  width: 98rem;
+  margin: 0 auto;
+}
+
 @mixin wrap-w-sp {
   width: 35.3rem;
   margin: 0 auto;

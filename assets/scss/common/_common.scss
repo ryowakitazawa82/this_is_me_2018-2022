@@ -1,4 +1,4 @@
-@import "./_mixin.scss";
+@import "../common/mixin";
 
 body {
   font-family: $ff_main;
@@ -50,6 +50,9 @@ body {
   background-color: $bg-white;
   height: 7.2rem;
   border-radius: 3px;
+  @include pc {
+    height: 8rem;
+  }
 }
 
 .medium-box {
@@ -57,6 +60,12 @@ body {
   background-color: $bg-white;
   height: 5rem;
   border-radius: 3px;
+  @include pc {
+    height: 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /*********************************************/
@@ -120,11 +129,11 @@ body {
     padding-bottom: 3.1rem;
   }
   .common-w-h3 {
-    padding: .9rem 2.1rem;
+    padding: 0.9rem 2.1rem;
     display: inline-block;
     background-color: $white;
     border-radius: 6px;
-    box-shadow: 2px 2px 0px 1.4px #5D5D5D;
+    box-shadow: 2px 2px 0px 1.4px #5d5d5d;
     h3 {
       @include t-14($black, $ff_accent);
     }
