@@ -38,7 +38,7 @@ export default {
       video.play();
     });
     video.addEventListener("ended", function () {
-      console.log("動画が終わったよ");
+      window.location.href = "/";
     });
   },
 };
