@@ -1,0 +1,8 @@
+.dev {
+  .dev-title__des {
+    text-align: center;
+  }
+  .dev-content__wrap {
+    @include wrap-w-inner-sp;
+  }
+}

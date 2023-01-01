@@ -1,0 +1,43 @@
+.index {
+  @include wrap-sp;
+  & .my-name {
+    padding-top: 5rem;
+    color: $white;
+  }
+  .index-title {
+    @include t-game-title($white);
+  }
+  .business-side {
+    padding-top: 6rem;
+  }
+  .creator-side {
+    padding-top: 3.2rem;
+  }
+  .index__planner-link {
+    margin-top: 1.6rem;
+  }
+  .large-box {
+    display: flex;
+    align-items: center;
+    img {
+      width: 3.6rem;
+      height: 2.9rem;
+      padding-left: 2.1rem;
+    }
+    p {
+      @include t-20($black, $ff_accent);
+      padding-left: 1.4rem;
+    }
+  }
+  .sub-corner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.2rem;
+    margin-bottom: 10rem;
+    p {
+      @include t-20($black, $ff_accent);
+      text-align: center;
+      line-height: 5rem;
+    }
+  }
+}
