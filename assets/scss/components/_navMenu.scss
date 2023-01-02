@@ -1,0 +1,18 @@
+.hamburger {
+  &__btn {
+    width: 12rem;
+    height: 12rem;
+    background-color: #c0cbd3;
+    position: fixed;
+    bottom: 6rem;
+    right: 8rem; //calcが効かないブラウザ用
+    right: calc(50% - 56rem);
+    border-radius: 1000px;
+    box-shadow: 3px 3px 12px #19191929;
+  }
+  &__icon {
+    position: relative;
+    width: 2.4rem;
+    height: 1.4rem;
+  }
+}
