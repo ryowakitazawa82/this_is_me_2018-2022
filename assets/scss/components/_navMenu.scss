@@ -20,7 +20,7 @@
   &__icon {
     position: relative;
     width: 4rem;
-    height: 1.8rem;
+    height: 1.4rem;
     span {
       display: inline-block;
       transition: all 0.4s;
@@ -38,14 +38,12 @@
       }
     }
     &.is-active {
-      span {
-        &:nth-of-type(1) {
-          @include sp {
+      &.hamburger__icon {
+        span {
+          &:nth-of-type(1) {
             transform: translateY(-7px) rotate(45deg);
           }
-        }
-        &:nth-of-type(2) {
-          @include sp {
+          &:nth-of-type(2) {
             transform: translateY(7px) rotate(-45deg);
           }
         }
