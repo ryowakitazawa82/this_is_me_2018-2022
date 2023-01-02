@@ -9,10 +9,47 @@
     right: calc(50% - 56rem);
     border-radius: 1000px;
     box-shadow: 3px 3px 12px #19191929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    &:hover {
+      opacity: 0.7;
+    }
   }
   &__icon {
     position: relative;
-    width: 2.4rem;
-    height: 1.4rem;
+    width: 4rem;
+    height: 1.8rem;
+    span {
+      display: inline-block;
+      transition: all 0.4s;
+      position: absolute;
+      right: 0;
+      height: 0.4rem;
+      width: 4rem;
+      background-color: #fff;
+      border-radius: 8px;
+      &:nth-of-type(1) {
+        top: 100%;
+      }
+      &:nth-of-type(2) {
+        top: 0%;
+      }
+    }
+    &.is-active {
+      span {
+        &:nth-of-type(1) {
+          @include sp {
+            transform: translateY(-7px) rotate(45deg);
+          }
+        }
+        &:nth-of-type(2) {
+          @include sp {
+            transform: translateY(7px) rotate(-45deg);
+          }
+        }
+      }
+    }
   }
 }
