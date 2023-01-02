@@ -175,7 +175,7 @@ body {
   }
   .width-max {
     @include pc {
-      width: 100%;
+      width: 100% !important;
     }
   }
   .common-w-h3 {
@@ -218,6 +218,9 @@ body {
     @include pc {
       height: 46rem !important;
     }
+  }
+  .timi-shiryo-img {
+    height: 31.8rem !important;
   }
   .common-w-h3__sub-text {
     padding-top: 1.5rem;

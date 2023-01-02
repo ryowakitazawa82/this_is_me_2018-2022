@@ -5,12 +5,29 @@
   .profile__top_img {
     margin-top: 4.1rem;
     margin-bottom: 4.2rem;
+    img {
+      border-radius: 4px;
+    }
+    @include pc {
+      width: 48%;
+    }
   }
   .profile__inner {
     @include wrap-w-inner-sp;
+    @include pc {
+      @include wrap-w-inner-pc;
+    }
   }
   .profile-content__wrap {
     padding: 3rem 0;
+    @include pc {
+      width: 42%;
+    }
+    &:not(:first-child) {
+      @include pc {
+        padding-top: 6rem;
+      }
+    }
   }
   .profile__title {
     display: flex;

@@ -5,4 +5,12 @@
   .dev-content__wrap {
     @include wrap-w-inner-sp;
   }
+  .dev-width-max {
+    @include pc {
+      @include wrap-w-inner-pc;
+      img {
+        height: 24.6rem !important;
+      }
+    }
+  }
 }
