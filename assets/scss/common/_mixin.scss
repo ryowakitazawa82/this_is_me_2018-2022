@@ -91,7 +91,17 @@ $ff-game: "DotGothic16", sans-serif;
   margin: 0 auto;
 }
 
+@mixin wrap-w-pc {
+  width: 104rem;
+  margin: 0 auto;
+}
+
 @mixin wrap-w-inner-sp {
   width: 28.1rem;
+  margin: 0 auto;
+}
+
+@mixin wrap-w-inner-pc {
+  width: 84rem;
   margin: 0 auto;
 }

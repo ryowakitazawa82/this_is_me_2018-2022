@@ -78,32 +78,59 @@ body {
   border-radius: 12px;
   margin-top: 4rem;
   margin-bottom: 3.2rem;
+  @include pc {
+    @include wrap-w-pc;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+  }
   .common-white-box__inner {
     @include wrap-sp;
+    @include pc {
+      @include wrap-pc;
+    }
   }
   .common-w-title {
     display: flex;
     align-items: center;
     padding-top: 3rem;
     justify-content: center;
+    @include pc {
+      padding-top: 4.8rem;
+    }
   }
   .common-w-title__img-wrap {
     img {
       width: 3.6rem;
       height: 2.9rem;
+      @include pc {
+        width: 4.2rem;
+        height: auto;
+      }
     }
   }
   .common-w-title__text-wrap {
     p {
       @include t-20($black, $ff_accent);
       padding-left: 1.4rem;
+      @include pc {
+        font-size: 2.8rem;
+      }
     }
   }
   .common-w-title__des {
     padding-top: 3rem;
     padding-bottom: 6.2rem;
+    display: flex;
+    justify-content: center;
+    @include pc {
+      padding-top: 3rem;
+      padding-bottom: 6.8rem;
+    }
     p {
       @include t-14;
+      @include pc {
+        font-size: 1.6rem;
+      }
     }
   }
   .common-w-h2 {
@@ -113,6 +140,9 @@ body {
     h2 {
       @include wrap-w-inner-sp;
       @include t-18($black, $ff_accent);
+      @include pc {
+        @include wrap-w-inner-pc;
+      }
     }
     &.plus-p-top {
       padding-top: calc(8rem - 3.1rem);
@@ -121,12 +151,32 @@ body {
   .common-w-h2__des {
     padding-bottom: 4rem;
     @include wrap-w-inner-sp;
+    @include pc {
+      padding-bottom: 6rem;
+      @include wrap-w-inner-pc;
+    }
     p {
       @include t-14;
     }
   }
+  .common-w-content__flex {
+    @include pc {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
   .common-w-content__wrap {
     padding-bottom: 3.1rem;
+    @include pc {
+      padding-bottom: 4rem;
+      width: 48%;
+    }
+  }
+  .width-max {
+    @include pc {
+      width: 100%;
+    }
   }
   .common-w-h3 {
     padding: 0.9rem 2.1rem;
@@ -142,10 +192,31 @@ body {
     margin-top: 1.4rem;
     &.plus-p-top {
       margin-top: 0;
+      @include pc {
+        margin-top: 1.4rem;
+      }
     }
     img {
       width: 100%;
       height: 100%;
+      @include pc {
+        height: 26.6rem;
+      }
+    }
+  }
+  .posting-img {
+    @include pc {
+      height: 34.8rem !important;
+    }
+  }
+  .large-img {
+    @include pc {
+      height: 27.4rem !important;
+    }
+  }
+  .grande-img {
+    @include pc {
+      height: 46rem !important;
     }
   }
   .common-w-h3__sub-text {
