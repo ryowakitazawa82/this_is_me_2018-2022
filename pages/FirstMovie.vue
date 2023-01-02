@@ -41,5 +41,6 @@ export default {
       window.location.href = "/";
     });
   },
+  layout: 'normal',
 };
 </script>
