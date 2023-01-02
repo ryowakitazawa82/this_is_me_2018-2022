@@ -1,6 +1,5 @@
 <template>
   <div class="index">
-  
     <NuxtLink to="/Profile">
       <div class="my-name">
         <div class="my-name__img">
@@ -12,55 +11,60 @@
         </div>
       </div>
     </NuxtLink>
-    <div class="business-side">
-      <div class="index-title">
-        <h2>ビジネスサイド</h2>
+    <div class="content-wrap">
+      <div class="business-side">
+        <div class="index-title">
+          <h2>ビジネスサイド</h2>
+        </div>
+        <NuxtLink to="/Planner">
+          <div class="index__planner-link large-box">
+            <div class="large-box__img-wrap">
+              <img src="/images/neko_musu.png" alt="ムスッとしたねこ" />
+            </div>
+            <div class="large-box__text-wrap">
+              <p>プランナーの姿</p>
+            </div>
+          </div>
+        </NuxtLink>
+        <NuxtLink to="/Marketer">
+          <div class="index__planner-link large-box">
+            <div class="large-box__img-wrap">
+              <img src="/images/neko_nomal.png" alt="普通の表情のねこ" />
+            </div>
+            <div class="large-box__text-wrap">
+              <p>マーケターの姿</p>
+            </div>
+          </div>
+        </NuxtLink>
       </div>
-      <NuxtLink to="/Planner">
-        <div class="index__planner-link large-box">
-          <div class="large-box__img-wrap">
-            <img src="/images/neko_musu.png" alt="ムスッとしたねこ" />
-          </div>
-          <div class="large-box__text-wrap">
-            <p>プランナーの姿</p>
-          </div>
+      <div class="creator-side">
+        <div class="index-title">
+          <h2>クリエイターサイド</h2>
         </div>
-      </NuxtLink>
-      <NuxtLink to="/Marketer">
-        <div class="index__planner-link large-box">
-          <div class="large-box__img-wrap">
-            <img src="/images/neko_nomal.png" alt="普通の表情のねこ" />
+        <NuxtLink to="/Designer">
+          <div class="index__planner-link large-box">
+            <div class="large-box__img-wrap">
+              <img src="/images/neko_aa.png" alt="ああって感じのねこ" />
+            </div>
+            <div class="large-box__text-wrap">
+              <p>デザイナーの姿</p>
+            </div>
           </div>
-          <div class="large-box__text-wrap">
-            <p>マーケターの姿</p>
+        </NuxtLink>
+        <NuxtLink to="/Developer">
+          <div class="index__planner-link large-box">
+            <div class="large-box__img-wrap">
+              <img src="/images/neko_naki.png" alt="泣き顔のねこ" />
+            </div>
+            <div class="large-box__text-wrap">
+              <p>ディベロッパーの姿</p>
+            </div>
           </div>
-        </div>
-      </NuxtLink>
+        </NuxtLink>
+      </div>
     </div>
-    <div class="creator-side">
-      <div class="index-title">
-        <h2>クリエイターサイド</h2>
-      </div>
-      <NuxtLink to="/Designer">
-        <div class="index__planner-link large-box">
-          <div class="large-box__img-wrap">
-            <img src="/images/neko_aa.png" alt="ああって感じのねこ" />
-          </div>
-          <div class="large-box__text-wrap">
-            <p>デザイナーの姿</p>
-          </div>
-        </div>
-      </NuxtLink>
-      <NuxtLink to="/Developer">
-        <div class="index__planner-link large-box">
-          <div class="large-box__img-wrap">
-            <img src="/images/neko_naki.png" alt="泣き顔のねこ" />
-          </div>
-          <div class="large-box__text-wrap">
-            <p>ディベロッパーの姿</p>
-          </div>
-        </div>
-      </NuxtLink>
+    <div class="index-title bonus-title  pc-only">
+      <h2>おまけ</h2>
     </div>
     <div class="sub-corner">
       <div class="sub-corner__other medium-box">

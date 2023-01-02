@@ -3,7 +3,7 @@ export default {
   head: {
     title: "portfolio-app",
     htmlAttrs: {
-      lang: "en",
+      lang: "jp",
     },
     meta: [
       { charset: "utf-8" },

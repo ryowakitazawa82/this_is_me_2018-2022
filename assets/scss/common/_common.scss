@@ -1,4 +1,4 @@
-@import "./_mixin.scss";
+@import "../common/mixin";
 
 body {
   font-family: $ff_main;
@@ -50,6 +50,9 @@ body {
   background-color: $bg-white;
   height: 7.2rem;
   border-radius: 3px;
+  @include pc {
+    height: 8rem;
+  }
 }
 
 .medium-box {
@@ -57,6 +60,12 @@ body {
   background-color: $bg-white;
   height: 5rem;
   border-radius: 3px;
+  @include pc {
+    height: 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /*********************************************/
@@ -69,32 +78,59 @@ body {
   border-radius: 12px;
   margin-top: 4rem;
   margin-bottom: 3.2rem;
+  @include pc {
+    @include wrap-w-pc;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+  }
   .common-white-box__inner {
     @include wrap-sp;
+    @include pc {
+      @include wrap-pc;
+    }
   }
   .common-w-title {
     display: flex;
     align-items: center;
     padding-top: 3rem;
     justify-content: center;
+    @include pc {
+      padding-top: 4.8rem;
+    }
   }
   .common-w-title__img-wrap {
     img {
       width: 3.6rem;
       height: 2.9rem;
+      @include pc {
+        width: 4.2rem;
+        height: auto;
+      }
     }
   }
   .common-w-title__text-wrap {
     p {
       @include t-20($black, $ff_accent);
       padding-left: 1.4rem;
+      @include pc {
+        font-size: 2.8rem;
+      }
     }
   }
   .common-w-title__des {
     padding-top: 3rem;
     padding-bottom: 6.2rem;
+    display: flex;
+    justify-content: center;
+    @include pc {
+      padding-top: 3rem;
+      padding-bottom: 6.8rem;
+    }
     p {
       @include t-14;
+      @include pc {
+        font-size: 1.6rem;
+      }
     }
   }
   .common-w-h2 {
@@ -104,6 +140,9 @@ body {
     h2 {
       @include wrap-w-inner-sp;
       @include t-18($black, $ff_accent);
+      @include pc {
+        @include wrap-w-inner-pc;
+      }
     }
     &.plus-p-top {
       padding-top: calc(8rem - 3.1rem);
@@ -112,19 +151,39 @@ body {
   .common-w-h2__des {
     padding-bottom: 4rem;
     @include wrap-w-inner-sp;
+    @include pc {
+      padding-bottom: 6rem;
+      @include wrap-w-inner-pc;
+    }
     p {
       @include t-14;
     }
   }
+  .common-w-content__flex {
+    @include pc {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
   .common-w-content__wrap {
     padding-bottom: 3.1rem;
+    @include pc {
+      padding-bottom: 4rem;
+      width: 48%;
+    }
+  }
+  .width-max {
+    @include pc {
+      width: 100% !important;
+    }
   }
   .common-w-h3 {
-    padding: .9rem 2.1rem;
+    padding: 0.9rem 2.1rem;
     display: inline-block;
     background-color: $white;
     border-radius: 6px;
-    box-shadow: 2px 2px 0px 1.4px #5D5D5D;
+    box-shadow: 2px 2px 0px 1.4px #5d5d5d;
     h3 {
       @include t-14($black, $ff_accent);
     }
@@ -133,11 +192,35 @@ body {
     margin-top: 1.4rem;
     &.plus-p-top {
       margin-top: 0;
+      @include pc {
+        margin-top: 1.4rem;
+      }
     }
     img {
       width: 100%;
       height: 100%;
+      @include pc {
+        height: 26.6rem;
+      }
     }
+  }
+  .posting-img {
+    @include pc {
+      height: 34.8rem !important;
+    }
+  }
+  .large-img {
+    @include pc {
+      height: 27.4rem !important;
+    }
+  }
+  .grande-img {
+    @include pc {
+      height: 46rem !important;
+    }
+  }
+  .timi-shiryo-img {
+    height: 31.8rem !important;
   }
   .common-w-h3__sub-text {
     padding-top: 1.5rem;

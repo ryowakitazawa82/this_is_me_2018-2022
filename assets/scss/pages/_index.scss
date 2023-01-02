@@ -1,20 +1,44 @@
 .index {
   @include wrap-sp;
+  @include pc {
+    @include wrap-pc;
+    margin-top: 6rem;
+  }
   & .my-name {
     padding-top: 5rem;
     color: $white;
   }
   .index-title {
     @include t-game-title($white);
+    @include pc {
+      margin-bottom: 2.4rem;
+    }
+  }
+  .content-wrap {
+    @include pc {
+      display: flex;
+      justify-content: space-between;
+    }
   }
   .business-side {
     padding-top: 6rem;
+    @include pc {
+      width: 48%;
+    }
   }
   .creator-side {
     padding-top: 3.2rem;
+    @include pc {
+      width: 48%;
+      padding-top: 0;
+      padding-top: 6rem;
+    }
   }
   .index__planner-link {
     margin-top: 1.6rem;
+    @include pc {
+      margin-top: 1.8rem;
+    }
   }
   .large-box {
     display: flex;
@@ -29,11 +53,17 @@
       padding-left: 1.4rem;
     }
   }
+  .bonus-title {
+    margin-top: 4rem;
+  }
   .sub-corner {
     display: flex;
     justify-content: space-between;
     margin-top: 3.2rem;
     margin-bottom: 10rem;
+    @include pc {
+      margin-top: 1.8rem;
+    }
     p {
       @include t-20($black, $ff_accent);
       text-align: center;

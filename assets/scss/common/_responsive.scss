@@ -1,0 +1,35 @@
+$media-ipad: 768px;
+// $media-sp-min: 320px;
+$media-pc: 1024px;
+
+// @mixin sp-min {
+//   @media only screen and (max-width: $media-sp-min) {
+//     @content;
+//   }
+// }
+
+@mixin ipad {
+  @media only screen and (min-width: $media-ipad) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media only screen and (min-width: $media-pc) {
+    @content;
+  }
+}
+
+/* パソコンで見た時はclass名pc-onlyだけ表示 */
+.pc-only {
+  display: none;
+  @include pc {
+    display: block;
+  }
+}
+.sp-only {
+  display: block;
+  @include pc {
+    display: none;
+  }
+}
