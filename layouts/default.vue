@@ -1,24 +1,15 @@
 <template>
   <div>
     <Nuxt />
-    <div class="hamburger__btn" @click="toggleHamburger">
-      <div class="hamburger__icon animate-hamburger">
-        <span></span>
-        <span></span>
-      </div>
-      <nav class="nav__wrap animate-hamburger"></nav>
-    </div>
+    <NavMenu></NavMenu>
   </div>
 </template>
 
 <script>
+import NavMenu from "~/components/NavMenu.vue";
 export default {
-  methods: {
-    toggleHamburger() {
-      const hamburgerAnimationElem =
-        document.querySelectorAll(".animate-hamburger");
-      hamburgerAnimationElem.forEach((i) => i.classList.toggle("is-active"));
-    },
+  components: {
+    NavMenu,
   },
 };
 </script>
