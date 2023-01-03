@@ -66,7 +66,7 @@
     opacity: 0;
     visibility: hidden;
     transition: all 0.4s ease;
-    background-color: rgba(0, 0, 0, 0.98);
+    background-color: rgba(0, 0, 0, 0.999);
     position: fixed;
     top: 0;
     right: 0;
@@ -76,6 +76,31 @@
     &.is-active {
       opacity: 1;
       visibility: visible;
+    }
+  }
+
+  &__lists {
+    @include wrap-w-inner-sp;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    @include pc {
+      @include wrap-w-inner-pc;
+    }
+  }
+
+  &__list {
+    width: 24%;
+    &--txt {
+      @include t-20(#fff, $ff_accent);
+      padding-bottom: 3.2rem;
+      @include pc {
+        font-size: 2.8rem;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
     }
   }
 }
