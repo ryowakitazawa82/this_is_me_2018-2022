@@ -29,12 +29,18 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      @include wrap-w-inner-sp;
+      @include pc {
+        width: auto;
+      }
     }
 
     &--txt {
       @include t-20(#fff);
       display: block;
       margin: 0 auto;
+      line-height: 2.8rem;
+      text-align: center;
     }
 
     &--btn {

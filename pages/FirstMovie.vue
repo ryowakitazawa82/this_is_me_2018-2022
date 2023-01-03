@@ -3,7 +3,7 @@
     <div class="first-movie__mask" id="movie-mask">
       <div class="first-movie__mask--inner">
         <p class="first-movie__mask--txt">
-          ※音声が出ますので、音量にご注意ください。
+          ※音声が出ますので、<br class="sp-only" />音量にご注意ください。
         </p>
         <div class="first-movie__mask--btn" @click="isOk">OK!</div>
       </div>
