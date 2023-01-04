@@ -16,43 +16,45 @@
           </p>
         </div>
 
-        <div class="common-w-h2">
-          <h2>ビジネスコンテスト</h2>
-        </div>
-        <div class="common-w-h2__des">
-          <p>
-            大学在学中にビジネスコンテストに数度挑戦。大学3年秋に挑戦したビジコンでは、準決勝・決勝大会に進出しました。
-          </p>
-        </div>
-
-        <div class="common-w-content__flex">
-          <div class="common-w-content__wrap">
-            <div class="common-w-h3">
-              <h3>チームロゴ</h3>
-            </div>
-            <div class="common-w-h3__img">
-              <img src="/images/busicon_01.jpg" alt="branch:チームロゴ" />
-            </div>
-            <div class="common-w-h3__sub-text">
-              <p>※美大生の方に制作していただきました。</p>
-            </div>
+        <div class="fadein" v-scroll="handleScroll">
+          <div class="common-w-h2">
+            <h2>ビジネスコンテスト</h2>
+          </div>
+          <div class="common-w-h2__des">
+            <p>
+              大学在学中にビジネスコンテストに数度挑戦。大学3年秋に挑戦したビジコンでは、準決勝・決勝大会に進出しました。
+            </p>
           </div>
 
-          <div class="common-w-content__wrap">
-            <div class="common-w-h3">
-              <h3>プランニング</h3>
+          <div class="common-w-content__flex">
+            <div class="common-w-content__wrap">
+              <div class="common-w-h3">
+                <h3>チームロゴ</h3>
+              </div>
+              <div class="common-w-h3__img">
+                <img src="/images/busicon_01.jpg" alt="branch:チームロゴ" />
+              </div>
+              <div class="common-w-h3__sub-text">
+                <p>※美大生の方に制作していただきました。</p>
+              </div>
             </div>
-            <div class="common-w-h3__img">
-              <img src="/images/busicon_02.jpg" alt="branch:チームロゴ" />
-            </div>
-          </div>
 
-          <div class="common-w-content__wrap">
-            <div class="common-w-h3">
-              <h3>事業企画資料</h3>
+            <div class="common-w-content__wrap">
+              <div class="common-w-h3">
+                <h3>プランニング</h3>
+              </div>
+              <div class="common-w-h3__img">
+                <img src="/images/busicon_02.jpg" alt="branch:チームロゴ" />
+              </div>
             </div>
-            <div class="common-w-h3__img">
-              <img src="/images/busicon_03.jpg" alt="branch:チームロゴ" />
+
+            <div class="common-w-content__wrap">
+              <div class="common-w-h3">
+                <h3>事業企画資料</h3>
+              </div>
+              <div class="common-w-h3__img">
+                <img src="/images/busicon_03.jpg" alt="branch:チームロゴ" />
+              </div>
             </div>
           </div>
         </div>
