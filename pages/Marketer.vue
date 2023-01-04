@@ -48,17 +48,17 @@
           </div>
         </div>
 
-        <div class="common-w-h2 plus-p-top">
+        <div class="common-w-h2 plus-p-top fadein" v-scroll="handleScroll">
           <h2>WEBマーケティング</h2>
         </div>
-        <div class="common-w-h2__des">
+        <div class="common-w-h2__des fadein" v-scroll="handleScroll">
           <p>
             WEB広告運用やSEO対策、SNSマーケの戦略立案・運用などをしてきました。
           </p>
         </div>
 
         <div class="common-w-content__flex">
-          <div class="common-w-content__wrap">
+          <div class="common-w-content__wrap fadein" v-scroll="handleScroll">
             <div class="common-w-h3">
               <h3>WEB広告の運用</h3>
             </div>
@@ -67,7 +67,7 @@
             </div>
           </div>
 
-          <div class="common-w-content__wrap">
+          <div class="common-w-content__wrap fadein" v-scroll="handleScroll">
             <div class="common-w-h3">
               <h3>SEO対策</h3>
             </div>
@@ -76,7 +76,7 @@
             </div>
           </div>
 
-          <div class="common-w-content__wrap">
+          <div class="common-w-content__wrap fadein" v-scroll="handleScroll">
             <div class="common-w-h3">
               <h3>インスタ運用戦略立案</h3>
             </div>
@@ -86,10 +86,10 @@
           </div>
         </div>
 
-        <div class="common-w-h2 plus-p-top">
+        <div class="common-w-h2 plus-p-top fadein" v-scroll="handleScroll">
           <h2>事業立ち上げの際のマーケ</h2>
         </div>
-        <div class="common-w-h2__des">
+        <div class="common-w-h2__des fadein" v-scroll="handleScroll">
           <p>
             資料にあるSTP分析/ ペルソナ分析の他、 3C分析/ クロスSWOT分析/
             VRIO分析
@@ -97,7 +97,7 @@
           </p>
         </div>
 
-        <div class="common-w-content__wrap width-max">
+        <div class="common-w-content__wrap width-max fadein" v-scroll="handleScroll">
           <div class="common-w-h3">
             <h3>資料一部抜粋</h3>
           </div>
@@ -124,5 +124,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    handleScroll: function (evt, el) {
+      if (window.scrollY > 50) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(0, -10px, 0)"
+        );
+      }
+      return window.scrollY > 100;
+    },
+  },
+};
 </script>

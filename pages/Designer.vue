@@ -58,51 +58,61 @@
           </div>
         </div>
 
-        <div class="common-w-h2 plus-p-top">
-          <h2>グラフィックデザイン</h2>
-        </div>
-        <div class="common-w-h2__des">
-          <p>細かいパーツも基本的にAdobe Illustratorで自作していました。</p>
-        </div>
-
-        <div class="common-w-content__wrap width-max">
-          <div class="common-w-h3">
-            <h3>ポスティング広告</h3>
+        <div class="fadein" v-scroll="handleScroll">
+          <div class="common-w-h2 plus-p-top">
+            <h2>グラフィックデザイン</h2>
           </div>
+          <div class="common-w-h2__des">
+            <p>細かいパーツも基本的にAdobe Illustratorで自作していました。</p>
+          </div>
+
+          <div class="common-w-content__wrap width-max">
+            <div class="common-w-h3">
+              <h3>ポスティング広告</h3>
+            </div>
+            <div class="common-w-content__flex">
+              <div class="common-w-h3__img">
+                <img
+                  src="/images/gd_01.png"
+                  alt="ポスティング広告01"
+                  class="posting-img"
+                />
+              </div>
+              <div class="common-w-h3__img plus-p-top">
+                <img
+                  src="/images/gd_01-2.png"
+                  alt="ポスティング広告02"
+                  class="posting-img"
+                />
+              </div>
+            </div>
+          </div>
+
           <div class="common-w-content__flex">
-            <div class="common-w-h3__img">
-              <img
-                src="/images/gd_01.png"
-                alt="ポスティング広告01"
-                class="posting-img"
-              />
+            <div class="common-w-content__wrap">
+              <div class="common-w-h3">
+                <h3>インスタバナー</h3>
+              </div>
+              <div class="common-w-h3__img">
+                <img
+                  src="/images/gd_02.png"
+                  alt="インスタバナー"
+                  class="grande-img"
+                />
+              </div>
             </div>
-            <div class="common-w-h3__img plus-p-top">
-              <img
-                src="/images/gd_01-2.png"
-                alt="ポスティング広告02"
-                class="posting-img"
-              />
-            </div>
-          </div>
-        </div>
 
-        <div class="common-w-content__flex">
-          <div class="common-w-content__wrap">
-            <div class="common-w-h3">
-              <h3>インスタバナー</h3>
-            </div>
-            <div class="common-w-h3__img ">
-              <img src="/images/gd_02.png" alt="インスタバナー" class="grande-img"/>
-            </div>
-          </div>
-
-          <div class="common-w-content__wrap">
-            <div class="common-w-h3">
-              <h3>広告バナー</h3>
-            </div>
-            <div class="common-w-h3__img">
-              <img src="/images/gd_03.png" alt="広告バナー" class="grande-img"/>
+            <div class="common-w-content__wrap">
+              <div class="common-w-h3">
+                <h3>広告バナー</h3>
+              </div>
+              <div class="common-w-h3__img">
+                <img
+                  src="/images/gd_03.png"
+                  alt="広告バナー"
+                  class="grande-img"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -112,5 +122,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    handleScroll: function (evt, el) {
+      if (window.scrollY > 50) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(0, -10px, 0)"
+        );
+      }
+      return window.scrollY > 100;
+    },
+  },
+};
 </script>

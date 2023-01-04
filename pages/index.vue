@@ -63,7 +63,7 @@
         </NuxtLink>
       </div>
     </div>
-    <div class="index-title bonus-title  pc-only">
+    <div class="index-title bonus-title pc-only">
       <h2>おまけ</h2>
     </div>
     <div class="sub-corner">
