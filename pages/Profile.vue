@@ -15,13 +15,13 @@
         </div>
 
         <div class="profile__top_img sp-only">
-          <img src="/images/pro_01.png" alt="北沢亮和" />
+          <img src="/images/pro_01.jpg" alt="北沢亮和" />
         </div>
 
         <div class="profile__inner">
           <div class="common-w-content__flex">
             <div class="profile__top_img pc-only">
-              <img src="/images/pro_01.png" alt="北沢亮和" />
+              <img src="/images/pro_01.jpg" alt="北沢亮和" />
             </div>
             <div class="profile-content__wrap">
               <div class="profile__title">
@@ -127,7 +127,19 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    handleScroll: function (evt, el) {
+      if (window.scrollY > 50) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(0, -10px, 0)"
+        );
+      }
+      return window.scrollY > 100;
+    },
+  },
+};
 </script>
 
 <style></style>
