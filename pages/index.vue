@@ -78,9 +78,15 @@
         </NuxtLink>
       </div>
     </div>
+    <HomeAnimation></HomeAnimation>
   </div>
 </template>
 
 <script>
-export default {};
+import HomeAnimation from "~/components/HomeAnimation.vue";
+export default {
+  components: {
+    HomeAnimation,
+  },
+};
 </script>
