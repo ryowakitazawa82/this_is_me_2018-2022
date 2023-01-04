@@ -14,12 +14,14 @@
           <p>日々勉強中。。。</p>
         </div>
 
-        <div class="common-w-h2">
-          <h2>スキルセット</h2>
-        </div>
-        <div class="common-w-content__wrap dev-content__wrap dev-width-max">
-          <div class="common-w-h3__img">
-            <img src="/images/skillset_dev.png" alt="スキルセット" />
+        <div class="fadein" v-scroll="handleScroll">
+          <div class="common-w-h2">
+            <h2>スキルセット</h2>
+          </div>
+          <div class="common-w-content__wrap dev-content__wrap dev-width-max">
+            <div class="common-w-h3__img">
+              <img src="/images/skillset_dev.png" alt="スキルセット" />
+            </div>
           </div>
         </div>
 

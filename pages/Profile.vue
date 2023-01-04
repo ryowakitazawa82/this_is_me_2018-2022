@@ -14,11 +14,11 @@
           </div>
         </div>
 
-        <div class="profile__top_img sp-only">
+        <div class="profile__top_img sp-only fadein" v-scroll="handleScroll">
           <img src="/images/pro_01.jpg" alt="北沢亮和" />
         </div>
 
-        <div class="profile__inner">
+        <div class="profile__inner fadein" v-scroll="handleScroll">
           <div class="common-w-content__flex">
             <div class="profile__top_img pc-only">
               <img src="/images/pro_01.jpg" alt="北沢亮和" />
