@@ -78,4 +78,16 @@
       line-height: 5rem;
     }
   }
+
+  .home-animation {
+    &__wrap {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: $bg-black;
+      z-index: 150;
+    }
+  }
 }
