@@ -15,13 +15,13 @@
         </div>
 
         <div class="profile__top_img sp-only">
-          <img src="/images/pro_01.png" alt="北沢亮和" />
+          <img src="/images/pro_01.jpg" alt="北沢亮和" />
         </div>
 
         <div class="profile__inner">
           <div class="common-w-content__flex">
             <div class="profile__top_img pc-only">
-              <img src="/images/pro_01.png" alt="北沢亮和" />
+              <img src="/images/pro_01.jpg" alt="北沢亮和" />
             </div>
             <div class="profile-content__wrap">
               <div class="profile__title">
