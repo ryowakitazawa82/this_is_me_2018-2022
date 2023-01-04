@@ -16,15 +16,13 @@ $black: #1a1a1a;
 $gold: #a99f5f;
 $bg-white: rgba(255, 255, 255, 0.85);
 $white: #fff;
-$border-gray: rgba(173, 171, 171,.8);
+$border-gray: rgba(173, 171, 171, 0.8);
 
 /*********************************************/
 /*             font-family                   */
 /*********************************************/
 $ff_main: YuMincho, /* Mac用 */ "Yu Mincho", /* Windows用 */ serif;
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
 $ff_accent: "Kaisei Decol", serif;
-@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 $ff-game: "DotGothic16", sans-serif;
 
 /*********************************************/
@@ -57,19 +55,19 @@ $ff-game: "DotGothic16", sans-serif;
 }
 
 @mixin t-18($color: $black, $font-family: $ff-main) {
-    color: $color;
-    font-family: $font-family;
-    font-size: 1.8rem;
-    line-height: 2rem;
-    letter-spacing: 0.05em;
-    font-weight: 600;
-  }
+  color: $color;
+  font-family: $font-family;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
 
 @mixin t-20($color: $black, $font-family: $ff-main) {
   color: $color;
   font-family: $font-family;
   font-size: 2rem;
-//   line-height: 1.7rem;
+  //   line-height: 1.7rem;
   letter-spacing: 0.1em;
 }
 

@@ -16,7 +16,11 @@ export default {
       { rel: "preconnect", href: "https://fonts.gstatic.com" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;500;700&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=DotGothic16&display=swap",
       },
     ],
   },
@@ -34,7 +38,7 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["nuxt-webfontloader"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
