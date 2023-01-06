@@ -208,6 +208,20 @@ body {
       }
     }
   }
+  .common-w-h3__video {
+    margin-top: 1.4rem;
+    border-radius: 4px;
+    iframe,
+    video {
+      margin-top: 0.8rem;
+      border-radius: 4px;
+      width: 100%;
+      height: 20rem;
+      @include pc {
+        height: 48rem;
+      }
+    }
+  }
   .posting-img {
     @include pc {
       height: 34.8rem !important;

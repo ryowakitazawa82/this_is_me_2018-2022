@@ -4,7 +4,7 @@
       <div class="common-white-box__inner">
         <div class="common-w-title">
           <div class="common-w-title__img-wrap">
-            <img src="/images/neko_nomal.png" alt="普通の表情のねこ" />
+            <img src="/images/neko_nomal.png" alt="普通の表情のねこ" oncontextmenu="return false;"/>
           </div>
           <div class="common-w-title__text-wrap">
             <p>ディベロッパーの姿</p>
@@ -20,7 +20,7 @@
           </div>
           <div class="common-w-content__wrap dev-content__wrap dev-width-max">
             <div class="common-w-h3__img">
-              <img src="/images/skillset_dev.png" alt="スキルセット" />
+              <img src="/images/skillset_dev.png" alt="スキルセット" oncontextmenu="return false;"/>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
                 <h3>採用LP</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/dev_w_01.png" alt="web制作" />
+                <img src="/images/dev_w_01.png" alt="web制作" oncontextmenu="return false;"/>
               </div>
             </div>
 
@@ -48,7 +48,7 @@
                 <h3>コーポレートサイト01</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/dev_w_02.png" alt="web制作" />
+                <img src="/images/dev_w_02.png" alt="web制作" oncontextmenu="return false;"/>
               </div>
             </div>
 
@@ -57,7 +57,7 @@
                 <h3>コーポレートサイト02</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/dev_w_03.png" alt="web制作" />
+                <img src="/images/dev_w_03.png" alt="web制作" oncontextmenu="return false;"/>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@
                 <h3>Trello(Vue)</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/dev_a_01.png" alt="webアプリ開発" />
+                <img src="/images/dev_a_01.png" alt="webアプリ開発" oncontextmenu="return false;"/>
               </div>
             </div>
 
@@ -85,7 +85,7 @@
                 <h3>Trello(React)</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/dev_a_02.png" alt="webアプリ開発" />
+                <img src="/images/dev_a_02.png" alt="webアプリ開発" oncontextmenu="return false;"/>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@
               <h3>ブロック崩しゲーム</h3>
             </div>
             <div class="common-w-h3__img">
-              <img src="/images/dev_g_01.png" alt="timiマーケ資料" />
+              <img src="/images/dev_g_01.png" alt="timiマーケ資料" oncontextmenu="return false;"/>
             </div>
           </div>
         </div>

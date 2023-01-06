@@ -3,7 +3,7 @@
     <NuxtLink to="/Profile">
       <div class="my-name">
         <div class="my-name__img">
-          <img src="/images/kity_icon.png" />
+          <img src="/images/kity_icon.png" oncontextmenu="return false;"/>
         </div>
         <div class="my-name__text">
           <h3>Kitazawa Ryowa</h3>
@@ -19,7 +19,7 @@
         <NuxtLink to="/Planner">
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
-              <img src="/images/neko_musu.png" alt="ムスッとしたねこ" />
+              <img src="/images/neko_musu.png" alt="ムスッとしたねこ" oncontextmenu="return false;"/>
             </div>
             <div class="large-box__text-wrap">
               <p>プランナーの姿</p>
@@ -29,7 +29,7 @@
         <NuxtLink to="/Marketer">
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
-              <img src="/images/neko_nomal.png" alt="普通の表情のねこ" />
+              <img src="/images/neko_nomal.png" alt="普通の表情のねこ" oncontextmenu="return false;"/>
             </div>
             <div class="large-box__text-wrap">
               <p>マーケターの姿</p>
@@ -44,7 +44,7 @@
         <NuxtLink to="/Designer">
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
-              <img src="/images/neko_aa.png" alt="ああって感じのねこ" />
+              <img src="/images/neko_aa.png" alt="ああって感じのねこ" oncontextmenu="return false;"/>
             </div>
             <div class="large-box__text-wrap">
               <p>デザイナーの姿</p>
@@ -54,7 +54,7 @@
         <NuxtLink to="/Developer">
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
-              <img src="/images/neko_naki.png" alt="泣き顔のねこ" />
+              <img src="/images/neko_naki.png" alt="泣き顔のねこ" oncontextmenu="return false;"/>
             </div>
             <div class="large-box__text-wrap">
               <p>ディベロッパーの姿</p>

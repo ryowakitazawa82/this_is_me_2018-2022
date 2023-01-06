@@ -4,7 +4,7 @@
       <div class="common-white-box__inner">
         <div class="common-w-title">
           <div class="common-w-title__img-wrap">
-            <img src="/images/neko_nomal.png" alt="普通の表情のねこ" />
+            <img src="/images/neko_nomal.png" alt="普通の表情のねこ" oncontextmenu="return false;"/>
           </div>
           <div class="common-w-title__text-wrap">
             <p>デザイナーの姿</p>
@@ -35,6 +35,7 @@
                 src="/images/wd_01.png"
                 alt="コーポレートサイト"
                 class="large-img"
+                oncontextmenu="return false;"
               />
             </div>
           </div>
@@ -44,7 +45,7 @@
               <h3>採用LP</h3>
             </div>
             <div class="common-w-h3__img">
-              <img src="/images/wd_02.png" alt="採用LP" class="large-img" />
+              <img src="/images/wd_02.png" alt="採用LP" class="large-img" oncontextmenu="return false;"/>
             </div>
           </div>
 
@@ -53,7 +54,7 @@
               <h3>広告LP</h3>
             </div>
             <div class="common-w-h3__img">
-              <img src="/images/wd_03.png" alt="広告LP" class="large-img" />
+              <img src="/images/wd_03.png" alt="広告LP" class="large-img" oncontextmenu="return false;"/>
             </div>
           </div>
         </div>
@@ -76,6 +77,7 @@
                   src="/images/gd_01.png"
                   alt="ポスティング広告01"
                   class="posting-img"
+                  oncontextmenu="return false;"
                 />
               </div>
               <div class="common-w-h3__img plus-p-top">
@@ -83,6 +85,7 @@
                   src="/images/gd_01-2.png"
                   alt="ポスティング広告02"
                   class="posting-img"
+                  oncontextmenu="return false;"
                 />
               </div>
             </div>
@@ -98,6 +101,7 @@
                   src="/images/gd_02.png"
                   alt="インスタバナー"
                   class="grande-img"
+                  oncontextmenu="return false;"
                 />
               </div>
             </div>
@@ -111,6 +115,7 @@
                   src="/images/gd_03.png"
                   alt="広告バナー"
                   class="grande-img"
+                  oncontextmenu="return false;"
                 />
               </div>
             </div>
