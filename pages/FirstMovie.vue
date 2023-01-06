@@ -15,6 +15,7 @@
         muted
         class="first-movie__main--video"
         id="video"
+        oncontextmenu="return false;"
       ></video>
     </div>
 

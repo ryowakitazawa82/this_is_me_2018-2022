@@ -5,7 +5,7 @@
         <div class="profile">
           <div class="my-name profile__my-name">
             <div class="my-name__img">
-              <img src="/images/kity_icon.png" />
+              <img src="/images/kity_icon.png" oncontextmenu="return false;"/>
             </div>
             <div class="my-name__text">
               <h3>Kitazawa Ryowa</h3>
@@ -15,18 +15,18 @@
         </div>
 
         <div class="profile__top_img sp-only fadein" v-scroll="handleScroll">
-          <img src="/images/pro_01.jpg" alt="北沢亮和" />
+          <img src="/images/pro_01.jpg" alt="北沢亮和" oncontextmenu="return false;"/>
         </div>
 
         <div class="profile__inner fadein" v-scroll="handleScroll">
           <div class="common-w-content__flex">
             <div class="profile__top_img pc-only">
-              <img src="/images/pro_01.jpg" alt="北沢亮和" />
+              <img src="/images/pro_01.jpg" alt="北沢亮和" oncontextmenu="return false;"/>
             </div>
             <div class="profile-content__wrap">
               <div class="profile__title">
                 <div class="profile-title__img-wrap">
-                  <img src="/images/neko_nomal.png" alt="普通の表情のねこ" />
+                  <img src="/images/neko_nomal.png" alt="普通の表情のねこ" oncontextmenu="return false;"/>
                 </div>
                 <div class="profile-title__text-wrap">
                   <p>基本の情報</p>
@@ -53,7 +53,7 @@
             <div class="profile-content__wrap">
               <div class="profile__title">
                 <div class="profile-title__img-wrap">
-                  <img src="/images/neko_aa.png" alt="ああって感じのねこ" />
+                  <img src="/images/neko_aa.png" alt="ああって感じのねこ" oncontextmenu="return false;"/>
                 </div>
                 <div class="profile-title__text-wrap">
                   <p>真面目な情報</p>
@@ -75,7 +75,7 @@
               <div class="profile__main-text">
                 <p class="en">Skill</p>
                 <p class="jp">
-                  <img src="/images/skillset.png" />
+                  <img src="/images/skillset.png" oncontextmenu="return false;"/>
                 </p>
               </div>
               <div class="profile__main-text">
@@ -93,7 +93,7 @@
             <div class="profile-content__wrap">
               <div class="profile__title">
                 <div class="profile-title__img-wrap">
-                  <img src="/images/neko_naki.png" alt="泣き顔のねこ" />
+                  <img src="/images/neko_naki.png" alt="泣き顔のねこ" oncontextmenu="return false;"/>
                 </div>
                 <div class="profile-title__text-wrap">
                   <p>その他の情報</p>

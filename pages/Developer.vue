@@ -4,7 +4,11 @@
       <div class="common-white-box__inner">
         <div class="common-w-title">
           <div class="common-w-title__img-wrap">
-            <img src="/images/neko_nomal.png" alt="普通の表情のねこ" />
+            <img
+              src="/images/neko_nomal.png"
+              alt="普通の表情のねこ"
+              oncontextmenu="return false;"
+            />
           </div>
           <div class="common-w-title__text-wrap">
             <p>ディベロッパーの姿</p>
@@ -20,7 +24,11 @@
           </div>
           <div class="common-w-content__wrap dev-content__wrap dev-width-max">
             <div class="common-w-h3__img">
-              <img src="/images/skillset_dev.png" alt="スキルセット" />
+              <img
+                src="/images/skillset_dev.png"
+                alt="スキルセット"
+                oncontextmenu="return false;"
+              />
             </div>
           </div>
         </div>
@@ -33,33 +41,72 @@
             <p>HTML/SCSS/JavaScript</p>
           </div>
 
-          <div class="common-w-content__flex">
-            <div class="common-w-content__wrap">
-              <div class="common-w-h3">
-                <h3>採用LP</h3>
-              </div>
-              <div class="common-w-h3__img">
-                <img src="/images/dev_w_01.png" alt="web制作" />
-              </div>
+          <div class="common-w-content__wrap width-max">
+            <div class="common-w-h3">
+              <h3>LP/コーポレートサイト</h3>
             </div>
-
-            <div class="common-w-content__wrap">
-              <div class="common-w-h3">
-                <h3>コーポレートサイト01</h3>
-              </div>
-              <div class="common-w-h3__img">
-                <img src="/images/dev_w_02.png" alt="web制作" />
-              </div>
-            </div>
-
-            <div class="common-w-content__wrap">
-              <div class="common-w-h3">
-                <h3>コーポレートサイト02</h3>
-              </div>
-              <div class="common-w-h3__img">
-                <img src="/images/dev_w_03.png" alt="web制作" />
-              </div>
-            </div>
+            <ul class="dev-site__contents">
+              <li class="dev-site__content">
+                <a href="http://eishin-develop.sakura.ne.jp/kyoei-denki/">
+                  <div class="common-w-h3__img">
+                    <img
+                      src="/images/dev_w_01.png"
+                      alt="web制作"
+                      oncontextmenu="return false;"
+                    /></div
+                ></a>
+              </li>
+              <li class="dev-site__content">
+                <a href="https://reactwall.co.jp/recruit-lp/">
+                  <div class="common-w-h3__img">
+                    <img
+                      src="/images/dev_site_02.png"
+                      alt="web制作"
+                      oncontextmenu="return false;"
+                    /></div
+                ></a>
+              </li>
+              <li class="dev-site__content">
+                <a href="https://www.iskc.co.jp/jinzai/">
+                  <div class="common-w-h3__img">
+                    <img
+                      src="/images/dev_site_03.png"
+                      alt="web制作"
+                      oncontextmenu="return false;"
+                    /></div
+                ></a>
+              </li>
+              <li class="dev-site__content">
+                <a href="https://kawasakidaishi-midori-ph.com/recruit/">
+                  <div class="common-w-h3__img">
+                    <img
+                      src="/images/dev_site_04.png"
+                      alt="web制作"
+                      oncontextmenu="return false;"
+                    /></div
+                ></a>
+              </li>
+              <li class="dev-site__content">
+                <a href="https://ufc-llc.jp//recruit.php/">
+                  <div class="common-w-h3__img">
+                    <img
+                      src="/images/dev_site_05.png"
+                      alt="web制作"
+                      oncontextmenu="return false;"
+                    /></div
+                ></a>
+              </li>
+              <li class="dev-site__content">
+                <a href="https://www.firstcontact.co.jp/recruit/">
+                  <div class="common-w-h3__img">
+                    <img
+                      src="/images/dev_site_06.png"
+                      alt="web制作"
+                      oncontextmenu="return false;"
+                    /></div
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="fadein" v-scroll="handleScroll">
@@ -76,7 +123,11 @@
                 <h3>Trello(Vue)</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/dev_a_01.png" alt="webアプリ開発" />
+                <img
+                  src="/images/dev_a_01.png"
+                  alt="webアプリ開発"
+                  oncontextmenu="return false;"
+                />
               </div>
             </div>
 
@@ -85,7 +136,11 @@
                 <h3>Trello(React)</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/dev_a_02.png" alt="webアプリ開発" />
+                <img
+                  src="/images/dev_a_02.png"
+                  alt="webアプリ開発"
+                  oncontextmenu="return false;"
+                />
               </div>
             </div>
           </div>
@@ -103,7 +158,11 @@
               <h3>ブロック崩しゲーム</h3>
             </div>
             <div class="common-w-h3__img">
-              <img src="/images/dev_g_01.png" alt="timiマーケ資料" />
+              <img
+                src="/images/dev_g_01.png"
+                alt="timiマーケ資料"
+                oncontextmenu="return false;"
+              />
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@
       <div class="common-white-box__inner">
         <div class="common-w-title">
           <div class="common-w-title__img-wrap">
-            <img src="/images/neko_nomal.png" alt="普通の表情のねこ" />
+            <img src="/images/neko_nomal.png" alt="普通の表情のねこ" oncontextmenu="return false;"/>
           </div>
           <div class="common-w-title__text-wrap">
             <p>マーケターの姿</p>
@@ -29,7 +29,7 @@
               <h3>ブランディング</h3>
             </div>
             <div class="common-w-h3__img">
-              <img src="/images/sogo_01.png" alt="白熱している議論の様子" />
+              <img src="/images/sogo_01.png" alt="白熱している議論の様子" oncontextmenu="return false;"/>
             </div>
           </div>
 
@@ -42,12 +42,14 @@
                 <img
                   src="/images/sogo_02.png"
                   alt="トレンド分析の資料の1枚目"
+                  oncontextmenu="return false;"
                 />
               </div>
               <div class="common-w-h3__img">
                 <img
                   src="/images/sogo_03.png"
                   alt="トレンド分析の資料の2枚目"
+                  oncontextmenu="return false;"
                 />
               </div>
             </div>
@@ -70,7 +72,7 @@
                 <h3>WEB広告の運用</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/wm_01.png" alt="運用報告資料" />
+                <img src="/images/wm_01.png" alt="運用報告資料" oncontextmenu="return false;"/>
               </div>
             </div>
 
@@ -79,7 +81,7 @@
                 <h3>SEO対策</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/wm_02.png" alt="アナリティクスの管理画面" />
+                <img src="/images/wm_02.png" alt="アナリティクスの管理画面" oncontextmenu="return false;"/>
               </div>
             </div>
 
@@ -88,7 +90,7 @@
                 <h3>インスタ運用戦略立案</h3>
               </div>
               <div class="common-w-h3__img">
-                <img src="/images/wm_03.png" alt="miroの画面" />
+                <img src="/images/wm_03.png" alt="miroの画面" oncontextmenu="return false;"/>
               </div>
             </div>
           </div>
@@ -116,6 +118,7 @@
                   src="/images/timimk_01.png"
                   alt="timiマーケ資料"
                   class="timi-shiryo-img"
+                  oncontextmenu="return false;"
                 />
               </div>
               <div class="common-w-h3__img">
@@ -123,6 +126,7 @@
                   src="/images/timimk_02.png"
                   alt="timiマーケmiro"
                   class="timi-shiryo-img"
+                  oncontextmenu="return false;"
                 />
               </div>
             </div>
