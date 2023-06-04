@@ -1,8 +1,13 @@
 ## Access
-- https://thisismeapp.herokuapp.com/firstMovie
+https://thisismeapp.herokuapp.com/firstMovie
 
 ## Overview
 大学在学中の活動をまとめたもの。
+
+## Design
+Adobe XDで大まかなデザイン作成。
+<img width="1037" alt="スクリーンショット 2023-06-04 11 34 09" src="https://github.com/ryowakitazawa82/this_is_me_2018-2022/assets/88272934/c172f66d-5dd2-45d5-812b-a0bbf844f803">
+
 
 ## Technology
 - Nuxt.js
