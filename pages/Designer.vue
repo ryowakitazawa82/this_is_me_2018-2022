@@ -4,11 +4,7 @@
       <div class="common-white-box__inner">
         <div class="common-w-title">
           <div class="common-w-title__img-wrap">
-            <img
-              src="/images/this_is_me_2018-2022/neko_nomal.png"
-              alt="普通の表情のねこ"
-              oncontextmenu="return false;"
-            />
+            <img src="/images/neko_nomal.png" alt="普通の表情のねこ" oncontextmenu="return false;"/>
           </div>
           <div class="common-w-title__text-wrap">
             <p>デザイナーの姿</p>
@@ -36,7 +32,7 @@
             </div>
             <div class="common-w-h3__img">
               <img
-                src="/images/this_is_me_2018-2022/wd_01.png"
+                src="/images/wd_01.png"
                 alt="コーポレートサイト"
                 class="large-img"
                 oncontextmenu="return false;"
@@ -49,12 +45,7 @@
               <h3>採用LP</h3>
             </div>
             <div class="common-w-h3__img">
-              <img
-                src="/images/this_is_me_2018-2022/wd_02.png"
-                alt="採用LP"
-                class="large-img"
-                oncontextmenu="return false;"
-              />
+              <img src="/images/wd_02.png" alt="採用LP" class="large-img" oncontextmenu="return false;"/>
             </div>
           </div>
 
@@ -63,12 +54,7 @@
               <h3>広告LP</h3>
             </div>
             <div class="common-w-h3__img">
-              <img
-                src="/images/this_is_me_2018-2022/wd_03.png"
-                alt="広告LP"
-                class="large-img"
-                oncontextmenu="return false;"
-              />
+              <img src="/images/wd_03.png" alt="広告LP" class="large-img" oncontextmenu="return false;"/>
             </div>
           </div>
         </div>
@@ -88,7 +74,7 @@
             <div class="common-w-content__flex">
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/gd_01.png"
+                  src="/images/gd_01.png"
                   alt="ポスティング広告01"
                   class="posting-img"
                   oncontextmenu="return false;"
@@ -96,7 +82,7 @@
               </div>
               <div class="common-w-h3__img plus-p-top">
                 <img
-                  src="/images/this_is_me_2018-2022/gd_01-2.png"
+                  src="/images/gd_01-2.png"
                   alt="ポスティング広告02"
                   class="posting-img"
                   oncontextmenu="return false;"
@@ -112,7 +98,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/gd_02.png"
+                  src="/images/gd_02.png"
                   alt="インスタバナー"
                   class="grande-img"
                   oncontextmenu="return false;"
@@ -126,7 +112,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/gd_03.png"
+                  src="/images/gd_03.png"
                   alt="広告バナー"
                   class="grande-img"
                   oncontextmenu="return false;"

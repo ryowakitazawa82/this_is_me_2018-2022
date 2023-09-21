@@ -4,10 +4,7 @@
       <div class="common-white-box__inner">
         <div class="common-w-title">
           <div class="common-w-title__img-wrap">
-            <img
-              src="/images/this_is_me_2018-2022/neko_musu.png"
-              alt="ムスッとしたねこ"
-            />
+            <img src="/images/neko_musu.png" alt="ムスッとしたねこ" />
           </div>
           <div class="common-w-title__text-wrap">
             <p>プランナーの姿</p>
@@ -53,7 +50,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/busicon_01.jpg"
+                  src="/images/busicon_01.jpg"
                   alt="branch:チームロゴ"
                   oncontextmenu="return false;"
                 />
@@ -69,7 +66,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/busicon_02.jpg"
+                  src="/images/busicon_02.jpg"
                   alt="branch:チームロゴ"
                   oncontextmenu="return false;"
                 />
@@ -82,7 +79,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/busicon_03.jpg"
+                  src="/images/busicon_03.jpg"
                   alt="branch:チームロゴ"
                   oncontextmenu="return false;"
                 />
@@ -124,7 +121,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/timidate_02.png"
+                  src="/images/timidate_02.png"
                   alt="branch:チームロゴ"
                   class="large-img"
                   oncontextmenu="return false;"
@@ -138,7 +135,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/timidate_03.png"
+                  src="/images/timidate_03.png"
                   alt="branch:チームロゴ"
                   class="large-img"
                   oncontextmenu="return false;"
@@ -152,7 +149,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/timidate_04.png"
+                  src="/images/timidate_04.png"
                   alt="branch:チームロゴ"
                   class="large-img"
                   oncontextmenu="return false;"
@@ -166,7 +163,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/timidate_05.png"
+                  src="/images/timidate_05.png"
                   alt="branch:チームロゴ"
                   class="large-img"
                   oncontextmenu="return false;"
