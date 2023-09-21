@@ -1,5 +1,5 @@
 ## Access
-[https://thisismeapp.herokuapp.com/firstMovie](https://ryowakitazawa82.github.io/this_is_me_2018-2022/FirstMovie/)
+https://ryowakitazawa82.github.io/this_is_me_2018-2022/FirstMovie/
 
 ## Overview
 大学在学中の活動をまとめたもの。
