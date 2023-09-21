@@ -25,7 +25,10 @@
             <h3>メインビジュアル</h3>
           </div>
           <div class="common-w-h3__img">
-            <img src="/images/other_01.jpg" alt="webデザイナー育成講座" />
+            <img
+              src="/images/this_is_me_2018-2022/other_01.jpg"
+              alt="webデザイナー育成講座"
+            />
           </div>
         </div>
 
@@ -43,7 +46,7 @@
             <h3>仮置きだよ</h3>
           </div>
           <div class="common-w-h3__img">
-            <img src="/images/sogo_01.png" alt="仮置き" />
+            <img src="/images/this_is_me_2018-2022/sogo_01.png" alt="仮置き" />
           </div>
         </div>
       </div>
