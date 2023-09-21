@@ -6,7 +6,7 @@
           <div class="my-name profile__my-name">
             <div class="my-name__img">
               <img
-                src="/images/this_is_me_2018-2022/kity_icon.png"
+                src="/this_is_me_2018-2022/images/kity_icon.png"
                 oncontextmenu="return false;"
               />
             </div>
@@ -19,7 +19,7 @@
 
         <div class="profile__top_img sp-only fadein" v-scroll="handleScroll">
           <img
-            src="/images/this_is_me_2018-2022/pro_01.jpg"
+            src="/this_is_me_2018-2022/images/pro_01.jpg"
             alt="北沢亮和"
             oncontextmenu="return false;"
           />
@@ -29,7 +29,7 @@
           <div class="common-w-content__flex">
             <div class="profile__top_img pc-only">
               <img
-                src="/images/this_is_me_2018-2022/pro_01.jpg"
+                src="/this_is_me_2018-2022/images/pro_01.jpg"
                 alt="北沢亮和"
                 oncontextmenu="return false;"
               />
@@ -38,7 +38,7 @@
               <div class="profile__title">
                 <div class="profile-title__img-wrap">
                   <img
-                    src="/images/this_is_me_2018-2022/neko_nomal.png"
+                    src="/this_is_me_2018-2022/images/neko_nomal.png"
                     alt="普通の表情のねこ"
                     oncontextmenu="return false;"
                   />
@@ -69,7 +69,7 @@
               <div class="profile__title">
                 <div class="profile-title__img-wrap">
                   <img
-                    src="/images/this_is_me_2018-2022/neko_aa.png"
+                    src="/this_is_me_2018-2022/images/neko_aa.png"
                     alt="ああって感じのねこ"
                     oncontextmenu="return false;"
                   />
@@ -95,7 +95,7 @@
                 <p class="en">Skill</p>
                 <p class="jp">
                   <img
-                    src="/images/this_is_me_2018-2022/skillset.png"
+                    src="/this_is_me_2018-2022/images/skillset.png"
                     oncontextmenu="return false;"
                   />
                 </p>
@@ -116,7 +116,7 @@
               <div class="profile__title">
                 <div class="profile-title__img-wrap">
                   <img
-                    src="/images/this_is_me_2018-2022/neko_naki.png"
+                    src="/this_is_me_2018-2022/images/neko_naki.png"
                     alt="泣き顔のねこ"
                     oncontextmenu="return false;"
                   />

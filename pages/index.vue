@@ -4,7 +4,7 @@
       <div class="my-name">
         <div class="my-name__img">
           <img
-            src="/images/this_is_me_2018-2022/kity_icon.png"
+            src="/this_is_me_2018-2022/images/kity_icon.png"
             oncontextmenu="return false;"
           />
         </div>
@@ -23,7 +23,7 @@
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
               <img
-                src="/images/this_is_me_2018-2022/neko_musu.png"
+                src="/this_is_me_2018-2022/images/neko_musu.png"
                 alt="ムスッとしたねこ"
                 oncontextmenu="return false;"
               />
@@ -37,7 +37,7 @@
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
               <img
-                src="/images/this_is_me_2018-2022/neko_nomal.png"
+                src="/this_is_me_2018-2022/images/neko_nomal.png"
                 alt="普通の表情のねこ"
                 oncontextmenu="return false;"
               />
@@ -56,7 +56,7 @@
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
               <img
-                src="/images/this_is_me_2018-2022/neko_aa.png"
+                src="/this_is_me_2018-2022/images/neko_aa.png"
                 alt="ああって感じのねこ"
                 oncontextmenu="return false;"
               />
@@ -70,7 +70,7 @@
           <div class="index__planner-link large-box">
             <div class="large-box__img-wrap">
               <img
-                src="/images/this_is_me_2018-2022/neko_naki.png"
+                src="/this_is_me_2018-2022/images/neko_naki.png"
                 alt="泣き顔のねこ"
                 oncontextmenu="return false;"
               />

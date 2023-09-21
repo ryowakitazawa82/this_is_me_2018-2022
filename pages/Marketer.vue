@@ -5,7 +5,7 @@
         <div class="common-w-title">
           <div class="common-w-title__img-wrap">
             <img
-              src="/images/this_is_me_2018-2022/neko_nomal.png"
+              src="/this_is_me_2018-2022/images/neko_nomal.png"
               alt="普通の表情のねこ"
               oncontextmenu="return false;"
             />
@@ -34,7 +34,7 @@
             </div>
             <div class="common-w-h3__img">
               <img
-                src="/images/this_is_me_2018-2022/sogo_01.png"
+                src="/this_is_me_2018-2022/images/sogo_01.png"
                 alt="白熱している議論の様子"
                 oncontextmenu="return false;"
               />
@@ -48,14 +48,14 @@
             <div class="common-w-content__flex">
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/sogo_02.png"
+                  src="/this_is_me_2018-2022/images/sogo_02.png"
                   alt="トレンド分析の資料の1枚目"
                   oncontextmenu="return false;"
                 />
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/sogo_03.png"
+                  src="/this_is_me_2018-2022/images/sogo_03.png"
                   alt="トレンド分析の資料の2枚目"
                   oncontextmenu="return false;"
                 />
@@ -81,7 +81,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/wm_01.png"
+                  src="/this_is_me_2018-2022/images/wm_01.png"
                   alt="運用報告資料"
                   oncontextmenu="return false;"
                 />
@@ -94,7 +94,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/wm_02.png"
+                  src="/this_is_me_2018-2022/images/wm_02.png"
                   alt="アナリティクスの管理画面"
                   oncontextmenu="return false;"
                 />
@@ -107,7 +107,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/wm_03.png"
+                  src="/this_is_me_2018-2022/images/wm_03.png"
                   alt="miroの画面"
                   oncontextmenu="return false;"
                 />
@@ -135,7 +135,7 @@
             <div class="common-w-content__flex">
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/timimk_01.png"
+                  src="/this_is_me_2018-2022/images/timimk_01.png"
                   alt="timiマーケ資料"
                   class="timi-shiryo-img"
                   oncontextmenu="return false;"
@@ -143,7 +143,7 @@
               </div>
               <div class="common-w-h3__img">
                 <img
-                  src="/images/this_is_me_2018-2022/timimk_02.png"
+                  src="/this_is_me_2018-2022/images/timimk_02.png"
                   alt="timiマーケmiro"
                   class="timi-shiryo-img"
                   oncontextmenu="return false;"
