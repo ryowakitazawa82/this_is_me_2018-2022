@@ -134,7 +134,6 @@
               </div>
             </div>
 
-          <div class="common-w-content__flex">
             <div class="common-w-content__wrap">
               <div class="common-w-h3">
                 <h3>インスタ②</h3>
