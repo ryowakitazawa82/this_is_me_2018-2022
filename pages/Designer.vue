@@ -32,11 +32,25 @@
         <div class="common-w-content__flex">
           <div class="common-w-content__wrap">
             <div class="common-w-h3">
-              <h3>コーポレートサイト</h3>
+              <h3>コーポレートサイト①</h3>
             </div>
             <div class="common-w-h3__img">
               <img
                 src="/this_is_me_2018-2022/images/wd_01.png"
+                alt="コーポレートサイト"
+                class="large-img"
+                oncontextmenu="return false;"
+              />
+            </div>
+          </div>
+
+          <div class="common-w-content__wrap">
+            <div class="common-w-h3">
+              <h3>コーポレートサイト②</h3>
+            </div>
+            <div class="common-w-h3__img">
+              <img
+                src="/this_is_me_2018-2022/images/ohchp.png"
                 alt="コーポレートサイト"
                 class="large-img"
                 oncontextmenu="return false;"
@@ -108,12 +122,27 @@
           <div class="common-w-content__flex">
             <div class="common-w-content__wrap">
               <div class="common-w-h3">
-                <h3>インスタバナー</h3>
+                <h3>インスタ①</h3>
               </div>
               <div class="common-w-h3__img">
                 <img
                   src="/this_is_me_2018-2022/images/gd_02.png"
-                  alt="インスタバナー"
+                  alt="インスタ"
+                  class="grande-img"
+                  oncontextmenu="return false;"
+                />
+              </div>
+            </div>
+
+          <div class="common-w-content__flex">
+            <div class="common-w-content__wrap">
+              <div class="common-w-h3">
+                <h3>インスタ②</h3>
+              </div>
+              <div class="common-w-h3__img">
+                <img
+                  src="/this_is_me_2018-2022/images/waka_insta.png"
+                  alt="インスタ"
                   class="grande-img"
                   oncontextmenu="return false;"
                 />
